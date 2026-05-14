@@ -35,3 +35,10 @@ class ProductController extends Controller
        return view('products.edit', ['product'=> $product]);
     }
 }
+
+// // Controller
+// ['abc' => $product]
+
+// // View — now you MUST use $abc
+// {{ $abc->name }}   _/
+// {{ $product->name }} (wrong)
